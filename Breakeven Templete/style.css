@@ -1,0 +1,155 @@
+*{ margin: 0; padding: 0; outline: 0; }
+
+.templete {
+    width: 100%;
+}
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+#active {
+    background-color: #690606;
+    border-radius: 5px;
+}
+
+.header {
+    background-color: #B50D0D;
+}
+
+.nav {
+    overflow: hidden;
+    padding-bottom: 40px;
+}
+
+.nav h2{
+    float: left;
+    color: white;
+    margin-top: 24px;
+    font-size: 35px;
+    font-weight: 200;
+    letter-spacing: 3px;
+}
+
+.nav ul {
+    float: right;
+    display: block;
+    margin: 0;
+    padding: 0;
+    list-style: none;    
+    margin-top: 40px;
+}
+
+.nav ul li {
+    display: block;
+    float: left;
+}
+
+.nav ul li a{
+    display: block;
+    text-decoration: none;
+    font-size: 14px;
+    color: white;
+    padding: 8px 20px;
+}
+
+.disctiption {
+    width: 600px;
+    float: left;
+}
+
+.disctiption h1 {
+    font-weight: 200;
+    font-size: 37px;
+    margin: 30px 0px;
+}
+
+.disctiption p {
+    font-size: 14px;
+    margin: 16px 0px;
+    text-align: justify;
+    line-height: 26px;
+}
+
+button[type="button"] {
+    background-color: #B50D0D;
+    padding: 9px 25px;
+    color: white;
+    font-size: 14px;
+    border-radius: 5px;
+    margin: 0px 2px;
+    border: none;
+}
+
+.service {
+    margin-top: 44px;
+    width: 240px;
+    float: right;
+    padding: 40px;
+    background-color: #F0F0F0;
+    border-radius: 10px;
+    overflow: hidden;
+    padding-bottom: 64px;
+}
+
+.service h2 {
+    margin-bottom: 30px;
+    font-weight: 300;
+    font-size: 30px;
+}
+
+.service ul {
+    list-style: url("images/img04.jpg");
+}
+
+.service ul li {
+    padding: 12px 0px 4px 0px;
+    border-bottom: 1px solid peachpuff;
+}
+
+.service ul li a {
+    text-decoration: none;
+    color: #B50D0D;
+    font-size: 14px;
+}
+
+.dependent {
+    overflow: hidden;
+}
+
+.add {
+    width: 320px;
+    float: left;
+    margin-top: 115px;
+    margin-bottom: 50px;
+}
+
+.add h2 {
+    margin-bottom: 15px;
+    font-weight: 200;
+    font-size: 28px;
+}
+
+.add p {
+    margin: 17px 0px;
+    font-size: 14px;
+    text-align: inherit;
+    line-height: 24px;
+}
+
+.footer {
+    overflow: hidden;
+    background-color: #B50D0D;
+    padding: 30px 0px;
+}
+
+.footer p {
+    text-align: center;
+    color: white;
+    font-size: 18px;
+}

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Basic Website Design</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="headersection templete">
+            <div class="logo">
+                <a href="#"><img src="images/logo.png" alt="Logo"></a>
+                <h2>Website Title</h2>
+                <p>Website Description</p>
+            </div>
+            <div class="social">
+                <a href="www.facebook.com"><img src="images/facebook.png" alt="Facebook"></a>
+                <a href="www.google.com"><img src="images/google.png" alt="Google"></a>
+                <a href="www.twitter.com"><img src="images/twitter.png" alt="Twitter"></a>
+                <a href="www.lonkedin.com"><img src="images/linkedin.png" alt="Linkedin"></a>
+            </div>
+        </div>
+        <div class="navsection templete">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a id="active" href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="#">Business Policy</a></li>
+            </ul>
+        </div>
+        <div class="contentsection templete">
+            <div class="maincontent">
+                <div class="about">
+                    <h2>About Us</h2>
+                    <a href="#"><img src="images/aboutus.jpg"></a>
+                    <p>
+                        Dwelling and speedily ignorant any steepest. Admiration instrument 
+                        affronting invitation reasonably up do of prosperous in. Shy saw 
+                        declared age debating ecstatic man. Call in so want pure rank am dear 
+                        were. Remarkably to continuing in surrounded diminution on. In 
+                        unfeeling existence objection immediate repulsive on he in. Imprudence 
+                        comparison uncommonly me he difficulty diminution resolution. Likewise 
+                        proposal differed scarcely dwelling as on raillery. September few 
+                        dependent extremity own continued and ten prevailed attending. 
+                        Early to weeks we could. 
+                    </p>
+                    <p>
+                        Up am intention on dependent questions oh elsewhere september. No 
+                        betrayed pleasure possible jointure we in throwing. And can event 
+                        rapid any shall woman green. Hope they dear who its bred. Smiling 
+                        nothing affixed he carried it clothes calling he no. Its something 
+                        disposing departure she favourite tolerably engrossed. Truth short 
+                        folly court why she their balls. Excellence put unaffected reasonable 
+                        mrs introduced conviction she. Nay particular delightful but 
+                        unpleasant for uncommonly who. 
+                    </p>
+                </div>
+            </div>
+            <div class="slider">
+               <div class="subslider">
+                   <h2>Latest Articles</h2>
+                   <ul>
+                       <li><a href="#"> Click hare to read the article</a></li>
+                       <li><a href="#"> Click hare to read the article</a></li>
+                       <li><a href="#"> Click hare to read the article</a></li>
+                       <li><a href="#"> Click hare to read the article</a></li>
+                       <li><a href="#"> Click hare to read the article</a></li>
+                       <li><a href="#"> Click hare to read the article</a></li>
+                   </ul>
+               </div>
+               <div class="subslider">
+                    <h2>Popular Section</h2>
+                    <div class="popularcontent">
+                        <h3><a href="#">Hare well be Post Title</a></h3>
+                        <img src="images/f4e59.jpg" alt="Photo">
+                        <p>
+                            For norland produce age wishing. To figure on it spring season up. 
+                            Her provision acuteness had excellent two why intention. As called 
+                            mr needed praise at. Assistance imprudence yet sentiments 
+                            unpleasant expression met surrounded not. Be at talked ye though 
+                            secure nearer.
+                        </p>
+                    </div>
+                    <div class="popularcontent">
+                        <h3><a href="#">Hare well be Post Title</a></h3>
+                        <img src="images/3594.jpg" alt="Photo">
+                        <p>
+                            For norland produce age wishing. To figure on it spring season up. 
+                            Her provision acuteness had excellent two why intention. As called 
+                            mr needed praise at. Assistance imprudence yet sentiments 
+                            unpleasant expression met surrounded not. Be at talked ye though 
+                            secure nearer.
+                        </p>
+                    </div>
+               </div>    
+            </div>
+        </div>
+        <div class="footersection templete">
+            <p> &copy; Copyright Sunil Chandra Karmakar </p>
+        </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script type="text/javascript">
+        var scrolltotop={setting:{startline:100,scrollto:0,scrollduration:1e3,fadeduration:[500,100]},controlHTML:'<img src="https://i1155.photobucket.com/albums/p559/scrolltotop/arrow7.png" />',controlattrs:{offsetx:5,offsety:5},anchorkeyword:"#top",state:{isvisible:!1,shouldvisible:!1},scrollup:function(){this.cssfixedsupport||this.$control.css({opacity:0});var t=isNaN(this.setting.scrollto)?this.setting.scrollto:parseInt(this.setting.scrollto);t="string"==typeof t&&1==jQuery("#"+t).length?jQuery("#"+t).offset().top:0,this.$body.animate({scrollTop:t},this.setting.scrollduration)},keepfixed:function(){var t=jQuery(window),o=t.scrollLeft()+t.width()-this.$control.width()-this.controlattrs.offsetx,s=t.scrollTop()+t.height()-this.$control.height()-this.controlattrs.offsety;this.$control.css({left:o+"px",top:s+"px"})},togglecontrol:function(){var t=jQuery(window).scrollTop();this.cssfixedsupport||this.keepfixed(),this.state.shouldvisible=t>=this.setting.startline?!0:!1,this.state.shouldvisible&&!this.state.isvisible?(this.$control.stop().animate({opacity:1},this.setting.fadeduration[0]),this.state.isvisible=!0):0==this.state.shouldvisible&&this.state.isvisible&&(this.$control.stop().animate({opacity:0},this.setting.fadeduration[1]),this.state.isvisible=!1)},init:function(){jQuery(document).ready(function(t){var o=scrolltotop,s=document.all;o.cssfixedsupport=!s||s&&"CSS1Compat"==document.compatMode&&window.XMLHttpRequest,o.$body=t(window.opera?"CSS1Compat"==document.compatMode?"html":"body":"html,body"),o.$control=t('<div id="topcontrol">'+o.controlHTML+"</div>").css({position:o.cssfixedsupport?"fixed":"absolute",bottom:o.controlattrs.offsety,right:o.controlattrs.offsetx,opacity:0,cursor:"pointer"}).attr({title:"Scroll to Top"}).click(function(){return o.scrollup(),!1}).appendTo("body"),document.all&&!window.XMLHttpRequest&&""!=o.$control.text()&&o.$control.css({width:o.$control.width()}),o.togglecontrol(),t('a[href="'+o.anchorkeyword+'"]').click(function(){return o.scrollup(),!1}),t(window).bind("scroll resize",function(t){o.togglecontrol()})})}};scrolltotop.init();</script>
+        <noscript>Not seeing a <a href="https://www.scrolltotop.com/">Scroll to Top Button</a>? Go to our FAQ page for more info.</noscript>
+    </body>
+</html>

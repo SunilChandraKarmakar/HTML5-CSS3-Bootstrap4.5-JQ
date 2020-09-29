@@ -1,0 +1,329 @@
+*{ margin: 0; padding: 0; outline: 0;}
+
+body {
+    background: url("images/bg.png") repeat fixed 0 0 white;
+    font-family: 'PT Sans', sans-serif;
+}
+
+#active {
+    background-color: lightcyan;
+    color: black;
+}
+
+.templete {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.headersection {
+    background-color: lavender;
+    overflow: hidden;
+}
+
+.logo {
+    width: 600px;
+    float: left;
+}
+
+.logo img {
+    height: 70px;
+    float: left;
+    padding: 15px;
+}
+
+.logo h2 {
+    margin-top: 13px;
+    font-size: 35px;
+    text-shadow: 2px 2px 0px grey;
+}
+
+.logo p {
+    font-size: 18px;
+}
+
+.social {
+    width: 142px;
+    float: right;
+}
+
+.social img {
+    width: 30px;
+    margin-top: 30px;
+}
+
+.navsection {
+    background-color: steelblue;
+    overflow: hidden;
+}
+
+.navsection ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.navsection ul li {
+    display: block;
+    float: left;
+}
+
+.navsection ul li a{
+    display: block;
+    text-decoration: none;
+    font-size: 17px;
+    color: black;
+    background-color: mistyrose;
+    margin: 0px;
+    padding: 5px 10px;
+    border: 1px solid black;
+}
+
+.navsection ul li a:hover {
+    background-color: black;
+    color: white;
+}
+
+.photoslider {
+    overflow: hidden;
+}
+
+.contentsection {
+    border: 1px solid black;
+    overflow: hidden;
+    background-color: white;
+}
+
+.maincontent {
+    width: 510px;
+    background-color: bisque;
+    float: left;
+    padding: 10px;
+    margin: 15px 6px 5px 11px;
+    text-align: justify;
+    border: 2px solid gainsboro;
+}
+
+.submaincontent {
+    overflow: hidden;
+}
+
+.submaincontent h2 {
+    border-bottom: 2px solid peru;
+    padding: 5px;
+}
+
+.submaincontent a img {    
+    width: 260px;
+    margin-top: 15px;
+    float: left;
+    margin-right: 20px;
+    background: white;
+    padding: 3px;
+    border: 2px solid darkkhaki;
+}
+
+.submaincontent p {
+    text-align: justify;
+    margin-top: 15px;
+    font-size: 17px;
+    line-height: 20px;
+}
+
+.submaincontent iframe {
+    margin-top: 14px;
+}
+
+.readmore {
+    float: right;
+    margin-top: 15px;
+    float: right;
+    background: lightyellow;
+    border: 2px solid lightblue;
+    border-radius: 10px;
+}
+
+.readmore a {
+    text-decoration: none;
+    display: block;
+    color: black;
+    padding: 5px 10px 5px 12px;
+}
+
+.about {
+    overflow: hidden;
+}
+
+.about h2 {
+    border-bottom: 2px solid peru;
+    padding: 5px;
+}
+
+.about img {
+    width: 260px;
+    margin-top: 15px;
+    float: left;
+    margin-right: 20px;
+    background: white;
+    padding: 3px;
+    border: 2px solid darkkhaki;
+}
+
+.about p {
+    text-align: justify;
+    margin-top: 15px;
+    font-size: 17px;
+    line-height: 20px;
+}
+
+.contact {
+    overflow: hidden;
+}
+
+.contact h2 {
+    border-bottom: 2px solid peru;
+    padding: 5px;
+}
+
+.contact table {
+    margin-top: 20px;
+}
+
+input[type="text"], input[type="email"],input[type="number"] {
+    width: 300px;
+    padding: 4px;
+    margin: 4px;
+    border: 1px solid deepskyblue;
+}
+
+textarea {
+    padding: 4px;
+    width: 302px;
+    height: 100px;
+    margin-left: 4px;
+    font-size: 15px;
+    border: 1px solid deepskyblue;
+}
+
+input[type="submit"] {
+    margin-left: 5px;
+    font-size: 15px;
+    padding: 6px 26px 7px 26px;
+    background-color: palegreen;
+    border: 2px solid lightseagreen;
+}
+
+.slider {
+    width: 346px;
+    background-color: bisque;
+    float: right;
+    padding: 10px;
+    margin: 15px 10px 0px 0px;
+    border: 2px solid gainsboro;
+}
+
+.subslider h2{
+    background-color: salmon;
+    text-align: center;
+    padding: 5px;
+    border-bottom: 2px solid brown;
+}
+
+.subslider ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.subslider ul li {
+    margin: 10px 0px 8px 5px;
+    border-bottom: 1px dashed mediumvioletred;
+}
+
+.subslider ul li:last-child {
+    border-bottom: none;
+}
+
+.subslider ul li a {
+    text-decoration: none;
+    font-size: 18px;
+    color: navy;
+}
+
+.subslider p {
+    padding: 10px 0px 10px 0px;
+}
+
+.popularcontent {
+    overflow: hidden;
+}
+
+.popularcontent h3 {
+    padding: 9px 7px 6px 0px;
+    border-bottom: 2px dashed burlywood;
+}
+
+.popularcontent a {
+    text-decoration: none;
+    color: saddlebrown;
+    font-size: 18px;
+}
+
+.popularcontent img {
+    width: 170px;
+    float: left;
+    margin-top: 15px;
+    margin-right: 10px;
+    background: white;
+    padding: 3px;
+    border: 1px solid teal;
+}
+
+.popularcontent p {
+    text-align: justify;
+    font-size: 17px;
+    line-height: 20px;
+    margin-top: 4px;
+    margin-bottom: 6px;
+}
+
+.reletedpost {
+    overflow: hidden;
+    margin-top: 20px;
+}
+
+.reletedpost h2 {
+    background-color: darkgray;
+    margin-bottom: 3px;
+    padding: 5px;
+    color: cornsilk;
+}
+
+.reletedpost img {
+    width: 172px;
+    background: white;
+    padding: 3px;
+    border: 2px solid darkgray;
+}
+
+.reletedpost img:hover {
+    opacity: 0.4;
+}
+
+.footersection {
+    height: 70px;
+    background-color: black;
+    overflow: hidden;
+}
+
+.footersection p {
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    padding-top: 22px;
+}
+
+.icon {
+    left: 0;
+    position: relative;
+    overflow: hidden;
+}
