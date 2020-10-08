@@ -1,10 +1,13 @@
-*{ margin:  0; padding: 0;}
+*{ 
+    margin:  0; 
+    padding: 0; 
+    outline: 0;
+}
 body {
     font-family: sans-serif;
 }
-
 /*----- nav-bar section style start -----*/
-#nav-bar {
+#Home {
     position: static;
     top: 0;
 }
@@ -23,7 +26,6 @@ body {
     font-size: 28px;
 }
 /*----- nav-bar section style end -----*/
-
 /*----- banner section style start -----*/
 #banner {
     background-image: linear-gradient(to right,  #a517ba, #5f1782);
@@ -56,3 +58,54 @@ body {
     width: 100%;
 }
 /*----- banner section style end -----*/
+/*----- service section style start -----*/
+#Service {
+    margin-bottom: 50px;
+}
+.service-title::before {
+    content: '';
+    background: #7b1798;
+    height: 5px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(55px);
+}
+.service-title::after {
+    content: '';
+    background: #7b1798;
+    height: 10px;
+    width: 90px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    display: block;
+    transform: translateY(9px);
+}
+.service-images-style {
+    width: 150px;
+}
+.service-content {
+    margin-top: 70px;
+}
+.groth-markting {
+    margin-top: 40px;
+}
+.online-branding {
+    margin-top: 64px;
+}
+.animated-ads {
+    margin-top: 36px;
+}
+.service-btn {
+    background-image: linear-gradient(to right,  #a517ba, #5f1782);
+    color: white;
+    text-transform: uppercase;
+    margin: 0 auto;
+    padding: 10px 20px;
+    border-radius: 41px;
+    border: none;
+    margin-top: 20px;
+}
+/*----- service section style end -----*/
